@@ -60,6 +60,7 @@ moderately complex UML (Universal Modelling Language) diagrams.
 %doc %{_texmfdistdir}/doc/generic/pst-uml/pst-uml-exemples.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-uml/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,3 +71,5 @@ moderately complex UML (Universal Modelling Language) diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
