@@ -61,3 +61,17 @@ moderately complex UML (Universal Modelling Language) diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.83-2
++ Revision: 755487
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.83-1
++ Revision: 719405
+- texlive-pst-uml
+- texlive-pst-uml
+- texlive-pst-uml
+- texlive-pst-uml
+
