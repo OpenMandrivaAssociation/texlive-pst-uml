@@ -6,7 +6,7 @@
 # catalog-version 0.83
 Name:		texlive-pst-uml
 Version:	0.83
-Release:	3
+Release:	4
 Summary:	UML diagrams with PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-uml
