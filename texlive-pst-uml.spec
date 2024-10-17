@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	UML diagrams with PSTricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-uml
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-uml
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-uml.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-uml.doc.r%{version}.tar.xz
